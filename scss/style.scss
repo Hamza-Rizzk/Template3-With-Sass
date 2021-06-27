@@ -1,0 +1,90 @@
+$bg-Color: #333;
+$font-color: #FFF;
+$primary-color: #008ed6;
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size: 25px;
+
+body {
+    background-color: $bg-Color;
+    color: $font-color;
+    height: 3000px;
+}
+
+/* Start NavBar */
+.navbar {
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.8;
+}
+/* End NavBar */
+
+/* Start Home Section */
+#home-section {
+    background-image: url("../images/social.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 750px;
+
+    .dark-overlay {
+        background-color: $dark-overlay;
+        width: 100%;
+        height: 750px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .home-inner {
+        padding-top: 150px;
+    }
+
+    .card-form {
+        opacity: 0.8;
+    }
+
+    .fa {
+        color: $primary-color;
+        background-color: #FFF;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+/* End Home Section */
+
+/* Start Explore Section */
+#explore-section {
+    .fa {
+        color:#FFF;
+        background-color: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size
+    }
+}
+/* End Explore Section */
+
+/* Start Create Section */
+#create-section {
+    .fa {
+        color: $primary-color;
+        background-color: #FFF;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+/* End Create Section */
+
+/* Start Share Section */
+#share-section {
+    .fa {
+        color: #FFF;
+        background-color: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size
+    }
+}
+/* End Share Section */
